@@ -1,0 +1,4 @@
+root: D:\nvm
+path: D:\nvm\nodejs
+node_mirror: http://npmmirror.com/mirrors/node/
+npm_mirror: http://npmmirror.com/mirrors/npm/
