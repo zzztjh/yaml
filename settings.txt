@@ -1,4 +1,127 @@
-root: D:\nvm
-path: D:\nvm\nodejs
-node_mirror: http://npmmirror.com/mirrors/node/
-npm_mirror: http://npmmirror.com/mirrors/npm/
+{
+  // "editor.fontSize": 20,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "off",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue-html",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "html",
+    "vue"
+  ],
+  "eslint.autoFixOnSave": true,
+  // 需要 npm install -g eslint-plugin-vue
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue"
+    ]
+  },
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxs": "javascript",
+    "*.wxml": "html",
+    "*.vue": "vue",
+    "*.wxss": "css"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "explorer.confirmDelete": false,
+  "[wxml]": {},
+  // "workbench.iconTheme": "easy-icons",
+  "[less]": {},
+  // less转为.wxss后缀
+  "less.compile": {
+
+    "outExt": ".wxss"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "sync.gist": "d5d00efc9667fa3be12a5a9ea87c2be0",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.rendererType": "dom",
+  "diffEditor.renderSideBySide": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "breadcrumbs.enabled": true,
+  "sonarlint.ls.javaHome": "c:\\Users\\ZZjh\\.vscode\\extensions\\sonarsource.sonarlint_managed-jre\\jre\\jdk-11.0.14+9-jre",
+  "sonarlint.rules": {
+    "Web:S5256": {
+      "level": "off"
+    },
+    "Web:TableWithoutCaptionCheck": {
+      "level": "off"
+    },
+    "javascript:S1854": {
+      "level": "off"
+    },
+    "javascript:S1117": {
+      "level": "off"
+    }
+  },
+  "editor.linkedEditing": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.unicodeHighlight.allowedCharacters": {
+    " ": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "workbench.editorAssociations": {
+    "*.dll": "default"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "workbench.colorTheme": "Default Dark+",
+  "settingsSync.ignoredSettings": [],
+  "gitlens.defaultDateLocale": "zh-CN",
+  "typescript.locale": "zh-CN",
+
+  "github.copilot.advanced": {
+    "debug.overrideCAPIUrl": "https://deepseek.ycode.online/v1",
+    "debug.overrideProxyUrl": "https://deepseek.ycode.online",
+    "debug.chatOverrideProxyUrl": "https://deepseek.ycode.online/v1/chat/completions",
+    "authProvider": "github"
+  },
+  // "github.copilot.advanced": {
+  //   "debug.overrideProxyUrl": "https://override.smnet.io",
+  //   "debug.chatOverrideProxyUrl": "https://override.smnet.io/chat/completions",
+  //   "authProvider": "github-enterprise",
+  //   "debug.overrideCAPIUrl": "https://override.smnet.io/v1"
+  // },
+  "github-enterprise.uri": "https://cocopilot.org",
+  "auto-close-tag.excludedTags": [
+    "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr"
+  ],
+  "github.copilot.chat.localeOverride": "zh-CN",
+  "window.zoomLevel": -1,
+}
